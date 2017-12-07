@@ -6,6 +6,11 @@ class Home extends React.Component {
   render() {
     return (
       <div className="home-start">
+        <div className="top-of-page">
+          <div className="image-box">
+            <img src="" alt=""/>
+          </div>
+        </div>
         <header>
           <nav className="navigation">
             <ul id="sub-nav-1">

@@ -1,3 +1,8 @@
+.top-of-page {
+  height: 300px;
+}
+
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -7,6 +12,7 @@
   margin-right: auto;
   margin-bottom: 40px;
   border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
 }
 
 .navigation #sub-nav-1 {
