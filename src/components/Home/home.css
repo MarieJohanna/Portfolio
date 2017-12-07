@@ -1,0 +1,34 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  border-bottom: 1px solid lightgray;
+}
+
+.navigation #sub-nav-1 {
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navigation #sub-nav-2 {
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation li {
+  list-style: none;
+  float: left;
+  font-size: 15px;
+  padding: 10px;
+  color: gray;
+}
