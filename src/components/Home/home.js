@@ -24,11 +24,11 @@ class Home extends React.Component {
         <div className="short-information">
           <div className="short-about">
             <div className="text-box">
-              Project 1 - text
+              <h3>About</h3>
             </div>
           </div>
           <div className="project">
-            Project 2
+            <h3>Project 1</h3>
           </div>
         </div>
         <div className="personal-highlight">
