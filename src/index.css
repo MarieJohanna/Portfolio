@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Syncopate');
+
 body {
   margin: 0;
   padding: 0;
@@ -6,4 +8,12 @@ body {
 
 html {
   background-color: #268560;
+}
+
+.navigation, h3 {
+  font-family: 'Syncopate', sans-serif;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
 }
