@@ -10,7 +10,7 @@ class Navigation extends React.Component {
         <nav className="navigation">
           <ul id="sub-nav-1">
             <li><Link to="/">Home</Link></li>
-            <li>About</li>
+            <li><Link to="/about">About</Link></li>
             <li><Link to="/projects">Projects</Link></li>
             <li>Photos</li>
             <li>Contact</li>

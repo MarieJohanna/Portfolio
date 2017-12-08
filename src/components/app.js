@@ -3,7 +3,7 @@
 import React from "react"
 import { BrowserRouter, Route } from "react-router-dom"
 import Home from "./Home/home"
-// import projects from "data/projects"
+import About from "./About/about"
 import Navigation from "./Navigation/navigation"
 import Footer from "./Footer/footer"
 import ProjectsOverview from "./ProjectsOverview/projectsOverview"
@@ -16,6 +16,7 @@ class App extends React.Component {
         <div>
           <Navigation />
           <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
           <Route exact path="/projects" component={ProjectsOverview} />
           <Footer />
         </div>
