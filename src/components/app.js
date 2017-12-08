@@ -3,6 +3,7 @@
 import React from "react"
 import { BrowserRouter, Route } from "react-router-dom"
 import Home from "./Home/home"
+// import projects from "data/projects"
 import Navigation from "./Navigation/navigation"
 import Footer from "./Footer/footer"
 import ProjectsOverview from "./ProjectsOverview/projectsOverview"
