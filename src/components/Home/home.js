@@ -6,16 +6,6 @@ class Home extends React.Component {
   render() {
     return (
       <div className="home-start">
-        <header>
-          <nav className="navigation">
-            <ul id="sub-nav-1">
-              <li>About</li>
-              <li>Projects</li>
-              <li>Work</li>
-              <li>Contact</li>
-            </ul>
-          </nav>
-        </header>
         <div className="top-of-page">
           <div className="image-box" />
           <div className="triangles">
@@ -60,6 +50,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
+
         <footer>
           <h3>Here goes contact information etc</h3>
         </footer>
