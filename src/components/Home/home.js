@@ -50,10 +50,6 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-
-        <footer>
-          <h3>Here goes contact information etc</h3>
-        </footer>
       </div>
     )
   }
