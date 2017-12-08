@@ -1,29 +1,21 @@
 import React from "react"
 // import { Link } from "react-router-dom"
 import "./projectsOverview.css"
-import Project from "../ProjectsOverview/Project/project"
+import ProjectDetails from "./ProjectDetails/projectdetails"
+import projects from "./../../data/projects"
 
 class ProjectsOverview extends React.Component {
 
   render() {
     return (
       <div className="collection-projects">
-        <Project
-          title="Yearbook"
-          description="Created a yearbook with my course mates"
-          keywords="HTML5, CSS" />
-        <Project
-          title="Yearbook"
-          description="Created a yearbook with my course mates"
-          keywords="HTML5, CSS" />
-        <Project
-          title="Yearbook"
-          description="Created a yearbook with my course mates"
-          keywords="HTML5, CSS" />
-        <Project
-          title="Yearbook"
-          description="Created a yearbook with my course mates"
-          keywords="HTML5, CSS" />
+        {projects.map((item) => {
+          return <ProjectDetails
+            key={item.id}
+            name={item.name}
+            description={item.description}
+            keywords={item.keywords} />
+        })}
       </div>
     )
   }
