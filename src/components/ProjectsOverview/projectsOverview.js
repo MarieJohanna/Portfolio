@@ -1,7 +1,7 @@
 import React from "react"
 // import { Link } from "react-router-dom"
 import "./projectsOverview.css"
-import Project from "../Project/project"
+import Project from "../ProjectsOverview/Project/project"
 
 class ProjectsOverview extends React.Component {
 
