@@ -12,8 +12,7 @@ class Navigation extends React.Component {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/projects">Projects</Link></li>
-            <li>Photos</li>
-            <li>Contact</li>
+            <a href="#form"><li>Contact</li></a>
           </ul>
         </nav>
       </header>

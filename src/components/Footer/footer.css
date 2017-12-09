@@ -5,13 +5,12 @@ footer {
   background-color: #1A2F7A;
 }
 
-.contact-information {
-  width: 40%;
-  margin-left: auto;
-  margin-right: auto;
-  /*border-bottom: 1px solid navy;*/
+.email-form {
+  width: 60%;
 }
 
-.email-form {
-  width: 40%;
+.contact-information {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
 }

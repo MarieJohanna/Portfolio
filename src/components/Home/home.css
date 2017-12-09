@@ -111,6 +111,8 @@
 
 .personal-highlight {
   width: 100%;
+  display: flex;
+  justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
   background-color: #1A2F7A;

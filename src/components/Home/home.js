@@ -46,7 +46,7 @@ class Home extends React.Component {
               </p>
             </div>
             <div className="hobbies-box">
-              Bild
+              <h3>Bild</h3>
             </div>
           </div>
         </div>
