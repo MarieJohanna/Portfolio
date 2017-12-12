@@ -17,7 +17,6 @@
 .navigation li {
   list-style: none;
   float: left;
-  font-size: 15px;
   padding: 10px;
-  color: #1A2F7A; 
+  color: #1A2F7A;
 }

@@ -61,21 +61,14 @@
   justify-content: space-between;
   flex-direction: column;
 }
-.short-information {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3%;
-  display: flex;
-  justify-content: center;
-}
+
 @keyframes slide {
   0% {
     transform: translateX(-1000px);
   }
 
   100% {
-    transform: translateX(0px);
+    transform: translateX(200px);
   }
 }
 
@@ -89,24 +82,43 @@
   }
 }
 
+.short-information {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-around;
+}
+
 .short-about {
   width: 30%;
   color: #fff;
   padding: 16px;
   background-color: #1A2F7A;
   margin-bottom: 2%;
-  transform: translateX(0px);
+  transform: translateX(100px);
 
   animation: slide 4s 1 ease-in-out;
 }
 
+.short-about-text {
+  /*width: 60%;*/
+}
+
 .project {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 300px;
-  background-color: #fff;
+  width: 30%;
   margin-bottom: 2%;
+}
+
+.project-1, .project-2 {
+  background-color: #fff;
+  animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .personal-highlight {

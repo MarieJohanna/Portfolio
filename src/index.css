@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Syncopate');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
 
 body {
   margin: 0;
@@ -11,7 +12,12 @@ html {
 }
 
 .navigation, h3 {
-  font-family: 'Syncopate', sans-serif;
+  /*font-family: 'Syncopate', sans-serif;*/
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 200%;
+}
+.navigation li {
+  font-size: 80%;
 }
 
 p {

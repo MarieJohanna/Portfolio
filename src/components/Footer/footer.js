@@ -6,11 +6,10 @@ class Footer extends React.Component {
   render() {
     return (
       <footer>
-        <div className="email-form" id="form" />
-        <div className="contact-information">
-          <h3>Marie Nilsson</h3>
-          <p>Email</p>
-          <p>Phone</p>
+        <div className="contact-information" id="contact">
+          <h3>Contact Me</h3>
+          <p>mariejohannanilsson@gmail.com</p>
+          <p>+46 70 626 3070</p>
         </div>
 
       </footer>

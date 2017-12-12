@@ -3,14 +3,16 @@ footer {
   display: flex;
   justify-content: space-around;
   background-color: #1A2F7A;
-}
-
-.email-form {
-  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 2%  0;
 }
 
 .contact-information {
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 2%;
+}
+
+.contact-me {
+
 }
