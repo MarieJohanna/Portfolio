@@ -14,9 +14,17 @@
   justify-content: space-between;
 }
 
+a {
+  list-style: none;
+}
+
 .navigation li {
   list-style: none;
   float: left;
   padding: 10px;
   color: #1A2F7A;
+}
+
+a:hover {
+  color: lightblue;
 }

@@ -12,7 +12,7 @@ class Navigation extends React.Component {
             <li><Link to="/" style={{ textDecoration: "none" }}>Home</Link></li>
             <li><Link to="/about" style={{ textDecoration: "none" }}>About</Link></li>
             <li><Link to="/projects" style={{ textDecoration: "none" }}>Projects</Link></li>
-            <a href="#contact"><li>Contact</li></a>
+            <li><a href="#contact" style={{ textDecoration: "none" }}>Contact</a></li>
           </ul>
         </nav>
       </header>

@@ -68,7 +68,7 @@
   }
 
   100% {
-    transform: translateX(200px);
+    transform: translateX(0px);
   }
 }
 
@@ -81,6 +81,17 @@
     transform: translateX(0px);
   }
 }
+
+@keyframes slideabout {
+  0% {
+    transform: translateX(-1000px);
+  }
+
+  100% {
+    transform: translateX(200px);
+  }
+}
+
 
 .short-information {
   width: 100%;
@@ -99,7 +110,7 @@
   margin-bottom: 2%;
   transform: translateX(100px);
 
-  animation: slide 4s 1 ease-in-out;
+  animation: slideabout 4s 1 ease-in-out;
 }
 
 .short-about-text {
