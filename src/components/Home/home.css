@@ -1,5 +1,6 @@
 .home-start {
-  background-color: #268560;
+  /* background-color: #268560; */
+  background-color: #82AA88;
 }
 .top-of-page {
   width: 100%;
@@ -10,7 +11,7 @@
 .image-box {
   width: 150px;
   height: 150px;
-  background-color: #268560;
+  background-color: #82AA88;
   border-radius: 100%;
   transform: translateX(1000px);
 
@@ -38,7 +39,7 @@
 	height: 0;
 	border-left: 150px solid transparent;
 	border-right: 150px solid transparent;
-	border-top: 200px solid #1A2F7A;
+	border-top: 200px solid #5492B8;
   margin-right: -50px;
   transform: translateX(0px);
   animation: slide 4s 1 ease-in-out;
@@ -49,7 +50,7 @@
 	height: 0;
 	border-left: 150px solid transparent;
 	border-right: 150px solid transparent;
-	border-bottom: 200px solid #1A2F7A;
+	border-bottom: 200px solid #5492B8;
   margin-left: -50px;
   transform: translateX(0px);
 
@@ -88,7 +89,7 @@
   }
 
   100% {
-    transform: translateX(200px);
+    transform: translateX(100px);
   }
 }
 
@@ -106,7 +107,7 @@
   width: 30%;
   color: #fff;
   padding: 16px;
-  background-color: #1A2F7A;
+  background-color: #82AA88;
   margin-bottom: 2%;
   transform: translateX(100px);
 
@@ -138,7 +139,7 @@
   justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
-  background-color: #1A2F7A;
+  background-color: #82AA88;
 }
 
 .hobbies-text-box {
