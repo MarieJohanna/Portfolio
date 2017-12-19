@@ -15,7 +15,7 @@ class Grid extends React.Component {
           <div>6</div>
           <div>7</div>
           <div className="wide">8</div>
-          <div>9</div>
+          <div className="hidden">9</div>
           <div>10</div>
           <div className="wide">11</div>
           <div>12</div>

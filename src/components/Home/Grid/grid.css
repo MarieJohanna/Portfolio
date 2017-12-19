@@ -21,3 +21,6 @@
 .wide {
   grid-column: span 2;
 }
+.hidden {
+  visibility: hidden;
+}
