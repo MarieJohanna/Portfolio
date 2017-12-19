@@ -1,4 +1,5 @@
 import React from "react"
+import Grid from "./Grid/grid"
 import "./home.css"
 
 class Home extends React.Component {
@@ -6,7 +7,8 @@ class Home extends React.Component {
   render() {
     return (
       <div className="home-start">
-        <div className="top-of-page">
+        <Grid />
+        {/* <div className="top-of-page">
           <div className="image-box" />
           <div className="triangles">
             <div className="triangle-1" />
@@ -43,7 +45,7 @@ class Home extends React.Component {
               <h3>Bild</h3>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     )
   }
