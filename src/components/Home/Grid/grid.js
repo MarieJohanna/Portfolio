@@ -7,19 +7,19 @@ class Grid extends React.Component {
     return (
       <div className="Grid">
         <div className="grid-container">
-          <div className="tall">1</div>
-          <div>2</div>
+          <div className="circle">1</div>
+          <div className="tall">2</div>
           <div className="tall wide">3</div>
-          <div>4</div>
-          <div>5</div>
+          <div className="circle">4</div>
+          <div className="tall wide">5</div>
           <div>6</div>
-          <div>7</div>
-          <div className="wide">8</div>
-          <div className="hidden">9</div>
-          <div>10</div>
-          <div className="wide">11</div>
+          <div className="hidden">7</div>
+          <div className="circle">8</div>
+          <div className="tall">9</div>
+          <div className="wide">10</div>
+          <div className="circle">11</div>
           <div>12</div>
-          <div>13</div>
+          <div className="circle">13</div>
           <div>14</div>
           {/* <div>15</div>
           <div>16</div>
