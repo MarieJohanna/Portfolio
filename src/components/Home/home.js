@@ -1,5 +1,6 @@
 import React from "react"
-import Grid from "./Grid/grid"
+// import Grid from "./Grid/grid"
+import Form from "../Form/form"
 import "./home.css"
 
 class Home extends React.Component {
@@ -7,7 +8,8 @@ class Home extends React.Component {
   render() {
     return (
       <div className="home-start">
-        <Grid />
+        <Form />
+        {/* <Grid /> */}
         {/* <div className="top-of-page">
           <div className="image-box" />
           <div className="triangles">
