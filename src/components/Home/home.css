@@ -13,20 +13,6 @@
   align-items: center
 }
 
-.name-box {
-  display: flex;
-  align-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.name-box h1 {
-  font-family: 'Special Elite', cursive;
-  font-size: 300%;
-  padding: 2%;
-  margin: 0;
-}
-
 .image-box {
   width: 150px;
   height: 150px;
