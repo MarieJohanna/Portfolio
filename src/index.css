@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Syncopate');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
+html {
+  background-color: #FFFAF0;
+  /* background-color: #268560;
+  background-color: #82AA88; */
+}
 
 * {
   box-sizing: border-box;
@@ -9,18 +14,17 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  width: 100%;
+  background-color: #FFFAF0;
 }
 
-html {
-  /* background-color: #268560; */
-  /* background-color: #82AA88; */
-  background-color: #F0EAD6;
-}
-
-.navigation, h3 {
-  /*font-family: 'Syncopate', sans-serif;*/
+.navigation {
   font-family: 'Special Elite', cursive;
   font-size: 200%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Special Elite', cursive;
 }
 .navigation li {
   font-size: 80%;
@@ -28,4 +32,10 @@ html {
 
 p {
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .navigation li {
+    font-size: 40%;
+  }
 }

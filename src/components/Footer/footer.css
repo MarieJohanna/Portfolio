@@ -2,7 +2,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  background-color: #5492B8;
+  background-color: #5492b8bd;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -13,6 +13,14 @@ footer {
   padding: 2%;
 }
 
-.contact-me {
+.contact-information p {
+  margin: 2%;
+}
 
+.contact-information a {
+  color: black;
+}
+
+.contact-information a:hover {
+  color: white;
 }

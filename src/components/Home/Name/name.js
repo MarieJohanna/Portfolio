@@ -7,7 +7,7 @@ class Name extends React.Component {
 
   render() {
     return (
-      <div className="top-of-page">
+      <div className="top-of-page-name">
         <div className="name-box typewriter">
           <h1 className="typewriter">&lt;Marie Nilsson&gt;</h1>
         </div>

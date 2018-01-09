@@ -25,13 +25,12 @@ a {
   list-style: none;
   float: left;
   padding: 10px;
-  color: #1A2F7A;
 }
 
 a:hover {
-  color:  #82AA88;
+  color: #82aa88bd;
 }
 
 a {
-  color: #5492B8;
+  color: #5492b8bd;
 }

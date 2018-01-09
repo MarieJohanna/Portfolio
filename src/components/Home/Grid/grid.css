@@ -1,19 +1,19 @@
 .grid-container {
-  margin: 10px auto 100px auto;
+  margin: 50px auto 100px auto;
   max-width: 1000px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-auto-rows: minmax(200px, auto);
-  grid-gap: 20px;
+  grid-gap: 50px;
 }
 
 .grid-container > div {
-  background-color: #82AA88;
+  background-color: #82aa88bd;
   padding: 4%;
 }
 
 .grid-container div:nth-child(2n) {
-  background-color: white;
+  background-color: #5492b8bd;
 }
 
 .tall {
@@ -30,6 +30,15 @@
 .about-who h3, .about-projects h3 {
   text-align: center;
   letter-spacing: .15em;
+  font-size: 150%;
+}
+
+.grid-container a {
+  color: black;
+}
+
+.grid-container a:hover {
+  color: white;
 }
 
 /*Tablet*/
@@ -50,11 +59,11 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .grid-container {
     margin: 10px auto 100px auto;
-    max-width: 300px;
+    max-width: 90%;
     display: grid;
     grid-template-columns: 300px;
     /* (auto-fill, minmax(200px, 1fr)); */
     grid-auto-rows: minmax(200px, auto);
-    grid-gap: 10px;
+    grid-gap: 15px;
   }
 }
