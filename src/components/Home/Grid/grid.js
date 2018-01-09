@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "./grid.css"
 
 class Grid extends React.Component {
@@ -7,13 +8,9 @@ class Grid extends React.Component {
     return (
       <div className="Grid">
         <div className="grid-container">
-          <div className="wide">1</div>
-          <div className="hidden">2</div>
-          <div className="tall wide">3</div>
-          <div className="tall hidden">4</div>
           <div className="tall wide">
-            <div className="about">
-              <h3>Marie Nilsson</h3>
+            <div className="about-who">
+              <h3><Link to="/about" style={{ textDecoration: "none" }}>&lt;Who&gt;</Link></h3>
               <p>I am an outgoing and optimistic person who loves meeting new
             people and to encounter new cultures. I have since an early
             age travelled a lot which has inspired me to later in life
@@ -30,20 +27,12 @@ class Grid extends React.Component {
               </p>
             </div>
           </div>
-          <div className="wide hidden">6</div>
-          {/* <div className="hidden">7</div>
-          <div className="circle">8</div>
-          <div className="tall">9</div>
-          <div className="wide">10</div>
-          <div className="circle">11</div>
-          <div>12</div>
-          <div className="circle">13</div>
-          <div>14</div>
-          <div>15</div>
-          <div>16</div>
-          <div>17</div>
-          <div>18</div>
-          <div>19</div> */}
+          <div className="tall wide">
+            <div className="about-projects">
+              <h3><Link to="/projects" style={{ textDecoration: "none" }}>&lt;Projects&gt;</Link></h3>
+              <p>Short intro of my web development projects</p>
+            </div>
+          </div>
         </div>
       </div>
 
