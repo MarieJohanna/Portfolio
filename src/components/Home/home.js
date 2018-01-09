@@ -1,6 +1,8 @@
 import React from "react"
 // import Grid from "./Grid/grid"
 import Name from "./Name/name"
+// import About from "../About/about"
+// import Grid from "../Home/Grid/grid"
 import Navigation from "../Navigation/navigation"
 // import Form from "../Form/form"
 import "./home.css"
@@ -12,6 +14,7 @@ class Home extends React.Component {
       <div className="home-start">
         <Name />
         <Navigation />
+        <div className="" />
         {/* <Form /> */}
         {/* <div className="top-of-page">
           <div className="image-box" />

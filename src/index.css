@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Syncopate');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,12 +13,13 @@ body {
 
 html {
   /* background-color: #268560; */
-  background-color: #82AA88;
+  /* background-color: #82AA88; */
+  background-color: #F0EAD6;
 }
 
 .navigation, h3 {
   /*font-family: 'Syncopate', sans-serif;*/
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Special Elite', cursive;
   font-size: 200%;
 }
 .navigation li {

@@ -10,7 +10,7 @@ class Grid extends React.Component {
           <div className="wide">1</div>
           <div className="hidden">2</div>
           <div className="tall wide">3</div>
-          <div className="tall">4</div>
+          <div className="tall hidden">4</div>
           <div className="tall wide">
             <div className="about">
               <h3>Marie Nilsson</h3>
@@ -30,7 +30,7 @@ class Grid extends React.Component {
               </p>
             </div>
           </div>
-          <div className="wide">6</div>
+          <div className="wide hidden">6</div>
           {/* <div className="hidden">7</div>
           <div className="circle">8</div>
           <div className="tall">9</div>
