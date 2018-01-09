@@ -8,7 +8,7 @@
 .name-box h1 {
   font-family: 'Special Elite', cursive;
   font-size: 300%;
-  padding: 2%;
+  padding: 0;
   margin: 0;
 }
 
@@ -17,9 +17,9 @@
   border-right: .10em solid lightgray; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .10em; /* Adjust as needed */
+  letter-spacing: .15em; /* Adjust as needed */
   animation:
-    typing 3.5s steps(20, end),
+    typing 3.5s steps(50, end),
     blink-caret .75s step-end infinite;
 }
 
