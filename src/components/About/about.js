@@ -2,7 +2,7 @@ import React from "react"
 import Name from "../Home/Name/name"
 import Navigation from "../Navigation/navigation"
 import "./about.css"
-import cssgrid from "./cssgrid.png"
+import cssgrid from "./cssgrid.jpg"
 
 class About extends React.Component {
 
