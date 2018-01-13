@@ -1,11 +1,19 @@
-.collection-projects {
+/* .collection-projects {
+  width: 80%;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: center;
-}
-
-/* .collection-projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  grid-auto-rows: minmax(150px, auto);
-  grid-gap: 20px;
 } */
+
+.collection-projects {
+  width: 80%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: minmax(300px, auto);
+  grid-gap: 100px;
+}

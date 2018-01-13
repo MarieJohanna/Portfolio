@@ -1,6 +1,6 @@
 .grid-container {
-  margin: 50px auto 100px auto;
-  max-width: 1000px;
+  margin: 5% auto;
+  width: 80%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-auto-rows: minmax(200px, auto);
@@ -10,6 +10,7 @@
 .grid-container > div {
   background-color: #82aa88bd;
   padding: 4%;
+  margin: 0;
 }
 
 .grid-container div:nth-child(2n) {

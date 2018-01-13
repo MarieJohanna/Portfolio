@@ -18,6 +18,8 @@ class ProjectsOverview extends React.Component {
             return <ProjectDetails
               key={item.id}
               name={item.name}
+              image={item.image}
+              link={item.link}
               description={item.description}
               keywords={item.keywords} />
           })}
