@@ -20,7 +20,7 @@ class Navigation extends React.Component {
                 <li><h5><Link to="/" style={{ textDecoration: "none" }}>Home</Link></h5></li>
                 <li><h5><Link to="/about" style={{ textDecoration: "none" }}>About</Link></h5></li>
                 <li><h5><Link to="/work" style={{ textDecoration: "none" }}>Work</Link></h5></li>
-                <li><h5><Link to="/contact" style={{ textDecoration: "none" }}>Contact me</Link></h5></li>
+                <li><h5><Link to="/contact" style={{ textDecoration: "none" }}>Contact</Link></h5></li>
               </ul>
             </div>
           </div>

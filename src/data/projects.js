@@ -16,6 +16,13 @@ export default [
     description: "As a group project we decided to build a habit tracker for children who require a more structured everyday life. We have facilited the view and user interaction with designated color for each weekday.",
     keywords: "React, JavaScript, HTML5, CSS"
   }, {
+    id: "sveriges-radio",
+    name: "Sveriges Radio",
+    link: "https://mariejohanna.github.io/SR",
+    image: "radio",
+    description: "Using Sverige's radio's API to create a page where you can listen to the radio station provided by public service.",
+    keywords: "React, Javascript, HTML5, CSS"
+  }, {
     id: "yearbook",
     name: "Yearbook Technigo 2017",
     link: "asdasf",
