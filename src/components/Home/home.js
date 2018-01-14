@@ -12,8 +12,9 @@ class Home extends React.Component {
   render() {
     return (
       <div className="home-start">
-        <Name />
         <Navigation />
+        <Name />
+
         <Grid />
         {/* <Form /> */}
         {/* <div className="top-of-page">

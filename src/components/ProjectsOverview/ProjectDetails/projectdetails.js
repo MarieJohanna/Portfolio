@@ -7,7 +7,7 @@ class ProjectDetails extends React.Component {
     return (
       <div className="project-container">
         <h3>{this.props.name}</h3>
-        <img src={this.props.image} alt="projekt bild" />
+        <div style={{ backgroundImage: `url(${this.props.image})` }} />
         <p>{this.props.description}</p>
         <p>{this.props.keywords}</p>
       </div>

@@ -1,0 +1,30 @@
+.collection-work {
+  width: 80%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-auto-rows: minmax(400px, auto);
+  grid-gap: 50px;
+}
+
+.container-work {
+  border: 1px dotted black;
+  padding: 4%;
+}
+
+.image-work {
+  width: 250px;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .project-container {
+  }
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .project-container {
+
+  }
+}
