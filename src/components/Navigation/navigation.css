@@ -97,6 +97,12 @@ a {
   #sub-nav-1 {
     display: block;
     padding-top: 3%;
-    font-size: 150%;
+  }
+  #sub-nav-1 h5 {
+    padding: 0;
+    margin: 0;
+  }
+  .navigation li {
+    padding: 5px;
   }
 }

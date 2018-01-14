@@ -17,10 +17,10 @@ class Navigation extends React.Component {
           <div className="menu-container">
             <div className="navigation-menu">
               <ul id="sub-nav-1">
-                <li><Link to="/" style={{ textDecoration: "none" }}>&lt;Home&gt;</Link></li>
-                <li><Link to="/about" style={{ textDecoration: "none" }}>&lt;About&gt;</Link></li>
-                <li><Link to="/work" style={{ textDecoration: "none" }}>&lt;Work&gt;</Link></li>
-                <li><Link to="/contact" style={{ textDecoration: "none" }}>&lt;Contact me&gt;</Link></li>
+                <li><h5><Link to="/" style={{ textDecoration: "none" }}>Home</Link></h5></li>
+                <li><h5><Link to="/about" style={{ textDecoration: "none" }}>About</Link></h5></li>
+                <li><h5><Link to="/work" style={{ textDecoration: "none" }}>Work</Link></h5></li>
+                <li><h5><Link to="/contact" style={{ textDecoration: "none" }}>Contact me</Link></h5></li>
               </ul>
             </div>
           </div>

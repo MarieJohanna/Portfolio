@@ -9,7 +9,7 @@ class Name extends React.Component {
     return (
       <div className="top-of-page-name">
         <div className="name-box typewriter">
-          <h1 className="typewriter">&lt;Marie Nilsson&gt;</h1>
+          <h1 className="typewriter">Marie Nilsson</h1>
         </div>
       </div>
     )

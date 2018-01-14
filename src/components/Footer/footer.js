@@ -8,7 +8,7 @@ class Footer extends React.Component {
     return (
       <footer>
         <div className="contact-information" id="contact">
-          <h3><Link to="/contact" style={{ textDecoration: "none" }}>&lt;Contact me&gt;</Link></h3>
+          <h3><Link to="/contact" style={{ textDecoration: "none" }}>Get in Touch</Link></h3>
           <p>mariejohannanilsson@gmail.com</p>
           <p>+46 70 626 3070</p>
         </div>
