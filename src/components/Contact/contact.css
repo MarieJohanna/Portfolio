@@ -1,16 +1,11 @@
-footer {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
+.contact-information {
+  padding: 2%;
+  width: 30%;
   background-color: #5492b8bd;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   padding: 2%  0;
-}
-
-.contact-information {
-  padding: 2%;
 }
 
 .contact-information p {

@@ -4,7 +4,7 @@ import React from "react"
 import { BrowserRouter, Route } from "react-router-dom"
 import Home from "./Home/home"
 import About from "./About/about"
-import Footer from "./Footer/footer"
+import Contact from "./Contact/contact"
 import Work from "./Work/work"
 // import ProjectsOverview from "./ProjectsOverview/projectsOverview"
 
@@ -16,7 +16,7 @@ class App extends React.Component {
         <div className="content">
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route exact path="/contact" component={Footer} />
+          <Route exact path="/contact" component={Contact} />
           <Route exact path="/work" component={Work} />
           {/* <Footer /> */}
         </div>

@@ -45,6 +45,7 @@ export default class Work extends React.Component {
             </div>
           </div>
         </div>
+        {/* <div className="link-box"><Link to="/about" style={{ textDecoration: "none" }}><h2>Learn more About me</h2></Link></div> */}
       </div>
     )
   }

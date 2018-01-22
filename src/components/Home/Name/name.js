@@ -10,7 +10,7 @@ class Name extends React.Component {
     return (
       <div className="top-of-page-name">
         <div className="name-box typewriter">
-          <h1 className="typewriter"><Link to="/about" style={{ textDecoration: "none" }}>Marie Nilsson</Link></h1>
+          <h1 className="typewriter"><Link to="/work" style={{ textDecoration: "none" }}>Marie Nilsson</Link></h1>
         </div>
       </div>
     )

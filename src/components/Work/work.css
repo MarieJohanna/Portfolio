@@ -15,6 +15,11 @@
 .image-work {
   width: 250px;
 }
+
+.link-box {
+  text-align: center;
+}
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .project-container {
   }
