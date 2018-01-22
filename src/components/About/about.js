@@ -15,34 +15,47 @@ class About extends React.Component {
           <div className="about-container">
             <div className="wide tall">
               <div className="text-box">
-                <h1>Education</h1>
-              </div>
-              <div className="text-box">
-                <h1>Experience</h1>
+                <h3>Education & Experience</h3>
+                <p>
+                  To pursue my interest in web development and to stimulate
+                  my creativity I recently took a 12 weeks long
+                  coding Boot Camp covering HTML, CSS, JavaScript
+                  including React and node which I took at <a href="www.technigo.io">Technigo</a>.
+                </p>
+                <p>
+                  After completing my business degree I started my career in Finance working with
+                  Treasury at Swedish multinational companies. After 5 years I decided to try
+                  business/it consulting at a FinTech consultancy firm. The IT involvement in
+                  all my previsous roles was starting point for my web development interest.
+                </p>
               </div>
             </div>
             <div className="wide tall-2">
-              <h1>Travel</h1>
+              <div className="text-box">
+                <h3>Travel</h3>
+              </div>
             </div>
             <div className="tall-5 link-box">
               <Link to="/work" style={{ textDecoration: "none" }}>
-                <span><h1>W</h1></span>
-                <span><h1>O</h1></span>
-                <span><h1>R</h1></span>
-                <span><h1>K</h1></span>
-                <span><h1>&#10148;</h1></span>
+                <span><h2>W</h2></span>
+                <span><h2>O</h2></span>
+                <span><h2>R</h2></span>
+                <span><h2>K</h2></span>
+                <span><h2>&#62;</h2></span>
               </Link>
             </div>
             <div className="wide tall">
               <div className="text-box">
-                <h1>personality</h1>
+                <h3>personality</h3>
               </div>
               <div className="text-box">
-                <h1>interests</h1>
+                <h3>interests</h3>
               </div>
             </div>
             <div className="wide tall-2">
-              <h1>Ice cream</h1>
+              <div className="text-box">
+                <h3>Ice cream</h3>
+              </div>
             </div>
             {/* <div className="wide tall">1</div>
             <div className="wide">1</div> */}
@@ -54,3 +67,5 @@ class About extends React.Component {
 }
 
 export default About
+
+// &#10148;
