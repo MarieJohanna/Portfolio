@@ -68,8 +68,12 @@ class About extends React.Component {
             </div>
           </div>
         </div>
-        {/* <div className="link-box"><Link to="/work" style={{ textDecoration: "none" }}><h2>Back to my projects</h2></Link></div>
-        <div className="link-box"><Link to="/contact" style={{ textDecoration: "none" }}><h2>Contact me</h2></Link></div> */}
+        {/* <div className="link-box"><Link to="/work"
+        style={{ textDecoration: "none" }}>
+        <h2>Back to my projects</h2></Link></div>
+        <div className="link-box"><Link to="/contact"
+        style={{ textDecoration: "none" }}>
+        <h2>Contact me</h2></Link></div> */}
       </div>
     )
   }
