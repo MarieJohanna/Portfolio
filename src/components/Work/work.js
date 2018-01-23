@@ -44,8 +44,21 @@ export default class Work extends React.Component {
               <p className="italic">Language used: React, JavaScript, HTML5, CSS</p>
             </div>
           </div>
+          <div className="container-work">
+            <h3>CSS-Santa</h3>
+            <img className="image-work" src={cssgrid} alt="bild" />
+            <div>
+              <p>Just before Christmas we had a small competition to create a Santa
+                only using HTML and CSS. I decided to try to use CSS-grid and create
+                reusable classes to style my Santa. You can find the result
+                here: <a target="_blank" rel="noopener noreferrer" href="https://santagodjul.netlify.com/">CSS-Santa</a>
+              </p>
+              <p className="italic">Language used: HTML5, CSS</p>
+            </div>
+          </div>
         </div>
-        {/* <div className="link-box"><Link to="/about" style={{ textDecoration: "none" }}><h2>Learn more About me</h2></Link></div> */}
+        {/* <div className="link-box"><Link to="/about" style={{ textDecoration: "none" }}>
+        <h2>Learn more About me</h2></Link></div> */}
       </div>
     )
   }
