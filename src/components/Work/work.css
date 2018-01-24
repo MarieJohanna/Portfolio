@@ -11,10 +11,32 @@
   padding: 10%;
   background-color: #f7f7f7;
 }
-
-.image-work {
-  width: 250px;
+.container-work h3 {
+  text-align: center;
+  margin-top: 0;
 }
+.container-work a {
+  color: black;
+}
+
+
+.project-image-cssgrid {
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  background-position: center;
+}
+
+.project-image-habittracker {
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+}
+
 
 .link-box {
   text-align: center;

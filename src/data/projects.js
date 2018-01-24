@@ -1,11 +1,11 @@
-import { cssgrid } from "images/cssgrid.png"
+import { cssgrid1 } from "images/cssgrid1.png"
 
 export default [
   {
     id: "grid",
     name: "CSS-Grid",
     link: "https://mariejohanna.github.io/CSS-Grid/",
-    image: { cssgrid },
+    image: { cssgrid1 },
     description: "Using CSS-grid to create to create the structure of boxes and then style each box with its different features such as images, different font size and structure.",
     keywords: "HTML5, CSS"
   }, {
