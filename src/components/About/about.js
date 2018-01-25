@@ -46,7 +46,7 @@ class About extends React.Component {
               <p>
                   I spend a few hours weekly on exercising everything from yogo to
                   spinning and weightlifting. I find it important to have an active
-                  lifestyle as it gives energy, enjoyment and strength to your life.
+                  lifestyle as it gives me energy, enjoyment and strength.
               </p>
               <p>
                   When I was a child I used to only wear pink, preferrably

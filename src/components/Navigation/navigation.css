@@ -4,24 +4,13 @@
   margin-right: auto;
 }
 
-.hamburger {
-  margin-top: 2%;
-  width: 50px;
-  height: 50px;
-  display: block;
-  position: relative;
-  cursor: pointer;
-  z-index: 1;
-  padding-left: 3%;
+.hamburger-checkbox {
+  display: none;
 }
 
 .menu-container {
-  width: 100%;
-  display: block;
-  height: 100px;
-  position: absolute;
-  top: -100%;
-  transition: all 1s ease;
+  margin-top: 0;
+  margin-bottom: 2%;
 }
 
 .navigation-menu {
@@ -40,45 +29,12 @@
   justify-content: space-between;
 }
 
-.hamburger-checkbox:checked ~ .menu-container {
-  top: 0;
-}
-
 a {
   list-style: none;
 }
 
-.bar1, .bar2, .bar3 {
-  width: 30px;
-  height: 4px;
-  background-color: #5492b8bd;
-  border-radius: 10px;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-.hamburger-checkbox {
-  display: none;
-}
-
 .navigation li {
   list-style: none;
-}
-/* Rotate first bar */
-.hamburger-checkbox:checked + .hamburger .bar1 {
--webkit-transform: rotate(-45deg) translate(-7px, 7px) ;
-transform: rotate(-45deg) translate(-7px, 7px) ;
-}
-
-/* Fade out the second bar */
-.hamburger-checkbox:checked + .hamburger .bar2 {
-opacity: 0;
-}
-
-/* Rotate last bar */
-.hamburger-checkbox:checked + .hamburger .bar3 {
--webkit-transform: rotate(45deg) translate(-7px, -7px) ;
-transform: rotate(45deg) translate(-7px, -7px) ;
 }
 
 a:hover {
@@ -100,5 +56,54 @@ a {
   }
   .navigation li {
     padding: 5px;
+  }
+  .hamburger {
+    margin-top: 3%;
+    margin-left: 1%;
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    padding-left: 3%;
+  }
+  .menu-container {
+    width: 100%;
+    background-color: #DEDEDE;
+    display: block;
+    height: auto;
+    padding-bottom: 2%;
+    position: absolute;
+    top: -100%;
+    transition: all 1s ease;
+  }
+  .bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 4px;
+    background-color: #5492b8bd;
+    border-radius: 10px;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  .hamburger-checkbox:checked ~ .menu-container {
+    top: 0;
+  }
+  .hamburger-checkbox {
+    display: none;
+  }
+  /* Rotate first bar */
+  .hamburger-checkbox:checked + .hamburger .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-7px, 7px) ;
+  transform: rotate(-45deg) translate(-7px, 7px) ;
+  }
+  /* Fade out the second bar */
+  .hamburger-checkbox:checked + .hamburger .bar2 {
+  opacity: 0;
+  }
+  /* Rotate last bar */
+  .hamburger-checkbox:checked + .hamburger .bar3 {
+  -webkit-transform: rotate(45deg) translate(-7px, -7px) ;
+  transform: rotate(45deg) translate(-7px, -7px) ;
   }
 }
