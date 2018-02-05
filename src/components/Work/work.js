@@ -60,6 +60,16 @@ export default class Work extends React.Component {
                 reusable classes to style my Santa. You can find the result
                 here: <a target="_blank" rel="noopener noreferrer" href="https://santagodjul.netlify.com/">CSS-Santa</a>
                 </p>
+                <p className="italic">Language used: HTML5, CSS, JavaScript</p>
+              </div>
+            </a>
+          </div>
+          <div className="container-work">
+            <a href="https://mariejohanna.github.io/check-weather/" style={{ textDecoration: "none" }} rel="noopener noreferrer" target="_blank">
+              <h3>Check the weather in..</h3>
+              <div className="project-image-weather" style={{ backgroundImage: `url(${cssgrid1})` }} />
+              <div>
+                <p>The website calls an API to check current weather in different preset cities</p>
                 <p className="italic">Language used: HTML5, CSS</p>
               </div>
             </a>

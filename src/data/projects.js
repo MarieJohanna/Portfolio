@@ -36,5 +36,12 @@ export default [
     image: "signupform",
     description: "build a signup form for any web service that should contain; text fields, password fields, radio buttons, checkboxes and a submit button. had to post to a server",
     keywords: "HTML5, CSS"
+  }, {
+    id: "api-weather",
+    name: "Check the weather in..",
+    link: "https://mariejohanna.github.io/check-weather/",
+    image: "weather",
+    description: "The website calls an API to check current weather in different preset cities",
+    keywords: "HTML5, CSS, JavaScript"
   }
 ]
