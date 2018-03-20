@@ -7,6 +7,10 @@
   grid-gap: 20px;
 }
 
+/* .top {
+  grid-column: span 3;
+} */
+
 .container-work {
   padding: 10%;
   background-color: #f7f7f7;
@@ -19,6 +23,14 @@
   color: black;
 }
 
+.project-image-event {
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  background-position: center;
+}
 
 .project-image-cssgrid {
   height: 200px;
@@ -44,20 +56,39 @@
   margin: 0;
   object-position: center;
 }
+.project-image-weather {
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  object-position: center;
+}
 
+.project-image-radio {
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  object-position: center;
+  background-position: center;
+}
 
 .link-box {
   text-align: center;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .project-container {
+  .top {
+    grid-column: span 2;
   }
 
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .project-container {
+  .top {
+    grid-column: span 1;
 
   }
 }

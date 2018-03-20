@@ -62,7 +62,7 @@ class About extends React.Component {
               <p>
                   I have a serious weekness for ice cream,
                   mostly eating but also make homemade ice cream.
-                  My prefered flavour in Pecan nut caramel
+                  My prefered flavours are Pecan nut caramel & vanilla.
                 <span role="img" aria-label="yum"> 😋</span>.
               </p>
             </div>
