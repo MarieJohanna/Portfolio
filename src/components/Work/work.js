@@ -5,7 +5,7 @@ import "./work.css"
 import cssgrid1 from "./../../images/cssgrid1.png"
 import habittracker from "./../../images/habit-tracker2.png"
 import santacss from "./../../images/santacss.png"
-import weather from "./../../images/check-weather.png"
+import weather from "./../../images/weather.jpg"
 import radio from "./../../images/radio2.png"
 import event from "./../../images/event1.png"
 
