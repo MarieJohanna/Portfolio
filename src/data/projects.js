@@ -1,16 +1,14 @@
-export default [
+const projects = [
   {
     id: "event",
     name: "Create Event",
     link: "http://seizetheparty.events/#/",
+    image1: "event1.png",
     image: "https://s10.postimg.org/f8jglndbt/event1.png",
-    description: "This was the final project of my 12-weeks long BootCamp. The purpose was
-      to make use of all the things that we've learned thoughout the course.
-      Together with my group we decided to create a service where you can create
-      events, invite your friends and also keep track of RSVP.
-      We started with building our own backend with MongoDB and Mongoose.
-      The continued to design and build the frontend in React. We implemented
-      the service Sendgrid to be able to actually send invites to guests.",
+    description: "This was the final project of my 12-weeks long BootCamp. The purpose was to make use of all the things that we had learned thoughout the course. " +
+      "Together with my group we decided to create a service where you can create events, invite your friends and also keep track of RSVP. " +
+      "We started with building our own backend with MongoDB and Mongoose. The continued to design and build the frontend in React. We implemented " +
+      "the service Sendgrid to be able to actually send invites to guests.",
     keywords: "React, JavaScript, HTML5, CSS, Node"
   }, {
     id: "grid",
@@ -31,8 +29,7 @@ export default [
     name: "Sveriges Radio",
     link: "https://mariejohanna.github.io/Sveriges-radio/",
     image: "https://s26.postimg.org/k39q8ndax/radio2.png",
-    description: "Using Sverige's radio's API to create a page where you can listen to the radio station provided by public service. In the
-      scroll down menu you can you choose the station you like.",
+    description: "Using Sverige's radio's API to create a page where you can listen to the radio station provided by public service. In the scroll down menu you can you choose the station you like.",
     keywords: "React, Javascript, HTML5, CSS"
   }, {
     id: "api-weather",
@@ -46,9 +43,7 @@ export default [
     name: "CSS-Santa",
     link: "https://santagodjul.netlify.com/",
     image: "https://s26.postimg.org/6owncxz0p/santacss.png",
-    description: "Just before Christmas we had a small competition to create a Santa
-      only using HTML and CSS. I decided to try to use CSS-grid and create
-      reusable classes to style my Santa.",
+    description: "Just before Christmas we had a small competition to create a Santa only using HTML and CSS. I decided to try to use CSS-grid and create reusable classes to style my Santa.",
     keywords: "HTML5, CSS, JavaScript"
   }, {
     id: "yearbook",
@@ -66,3 +61,17 @@ export default [
     keywords: "HTML5, CSS"
   }
 ]
+
+export const getAll = () => {
+  return projects
+}
+
+export const getById = (id) => {
+  const project = projects.find(project => project.id === id)
+  if (!project) {
+    return null
+  }
+  return Object.assign({}, project)
+}
+
+export default { projects, getAll, getById }
