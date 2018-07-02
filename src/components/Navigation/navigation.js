@@ -19,6 +19,7 @@ class Navigation extends React.Component {
               <ul id="sub-nav-1">
                 <li><h5><Link to="/" style={{ textDecoration: "none" }}>Home</Link></h5></li>
                 <li><h5><Link to="/work" style={{ textDecoration: "none" }}>Projects</Link></h5></li>
+                <li><h5><Link to="/projects" style={{ textDecoration: "none" }}>Projects2</Link></h5></li>
                 <li><h5><Link to="/about" style={{ textDecoration: "none" }}>About</Link></h5></li>
                 <li><h5><Link to="/contact" style={{ textDecoration: "none" }}>Get in touch</Link></h5></li>
               </ul>

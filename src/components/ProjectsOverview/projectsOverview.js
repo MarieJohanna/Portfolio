@@ -2,19 +2,18 @@ import React from "react"
 // import { Link } from "react-router-dom"
 import "./projectsOverview.css"
 import ProjectDetails from "./ProjectDetails/projectdetails"
-import projects from "./../../data/projects"
-import Name from "../Home/Name/name"
+import projectsApi from "./../../data/projects"
 import Navigation from "../Navigation/navigation"
 
 class ProjectsOverview extends React.Component {
 
   render() {
+    const projectList = projectsApi.getAll()
     return (
       <div>
-        <Name />
         <Navigation />
         <div className="collection-projects">
-          {projects.map((item) => {
+          {projectList.map((item) => {
             return <ProjectDetails
               key={item.id}
               name={item.name}

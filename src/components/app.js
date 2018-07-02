@@ -6,7 +6,7 @@ import Home from "./Home/home"
 import About from "./About/about"
 import Contact from "./Contact/contact"
 import Work from "./Work/work"
-// import ProjectsOverview from "./ProjectsOverview/projectsOverview"
+import ProjectsOverview from "./ProjectsOverview/projectsOverview"
 
 class App extends React.Component {
 
@@ -18,6 +18,7 @@ class App extends React.Component {
           <Route path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/work" component={Work} />
+          <Route exact path="/projects" component={ProjectsOverview} />
         </div>
       </BrowserRouter>
     )
